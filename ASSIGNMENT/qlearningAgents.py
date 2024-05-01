@@ -404,7 +404,7 @@ class DQNAgent1(QLearningAgent):
             pass
 
 ###############################################################################################
-###############################################################################################
+#####################################  Agent 2  ###############################################
 # Agent 2 with MLP Need to be de-commentted 
 class DQNAgent2(QLearningAgent):
     def __init__(self, epsilon=0.05, gamma=0.8, alpha=0.2, numTraining=0, **args):
@@ -472,7 +472,7 @@ class DQNAgent2(QLearningAgent):
     #         pass
 
 # Agent 2 with CNN need to be commeted out for MLP agent !!!
-# !!!
+#
 class DQNAgent2(QLearningAgent):
     def __init__(self, epsilon=0.05, gamma=0.8, alpha=0.2, numTraining=0, **args):
         args['epsilon'] = epsilon
